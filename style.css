@@ -1,0 +1,69 @@
+*{
+    padding: 0px;
+}
+a:hover{
+    color: #FDCDCB;
+}
+a{
+    text-decoration: none;
+    font-size: larger;
+    color: white;
+
+}
+body{
+    background-color:#FDCDCB;
+}
+header{
+    background-color: #FF9796;
+    text-align: center;
+}
+main{
+    background-color: #FF9796;
+    text-align: center;
+}
+article{
+    background-color: #FF9796;
+    text-align: center;
+}
+img{
+    border-radius: 100px;
+   border: solid 10px #FDCDCB;
+}
+.container{
+display: flex;
+align-items: center;
+}
+.image{
+max-width: 400px;
+margin-right: 20px;
+
+}
+.texto{
+flex: 1;
+font-size: x-large;
+color: whitesmoke;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.letras{
+    font-size:x-large;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footer {
+    background-color: #FF9796; /* Cor de fundo do footer */
+    color: #fff; /* Cor do texto */
+    padding: 20px;
+    text-align: center;
+}
+
+.footer a {
+    color: white; /* Cor dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+.footer a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+.escondido{
+    color: #FF9796;
+}
